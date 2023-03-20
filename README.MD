@@ -10,3 +10,13 @@ file name should  dockerfile
 docker build -t [docker-hub-URL]/[your-username]/[image-name]:version
 ```
 # -t taging 
+
+## how to push images to dockerhub
+```
+docker push [docker-hub-url]/[your-username][image-name]:version
+```
+
+### how to push images to dockerhub
+
+``docker push[docker-hub-URL]/[your-username/][image-name]:version
+``
