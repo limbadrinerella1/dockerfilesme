@@ -1,0 +1,11 @@
+git push rejected errors
+
+A .the git push comman fails when the commits 
+on your remote branch do not mach the commits on your local branch
+B . the first solution you can try {and i dont recommended it}
+is just using this command 
+> git push origin master --force  in this case you would overwrite the remote branch
+and destroy all files that you dont have in you lacal branch 
+
+git pull -u origin master -- when you push a local branch with git push -u option
+this local branch is linked with the remote branch automatically 
